@@ -23,6 +23,7 @@ menu:
 email: vatitiprieto11@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_0DyEDM0jtu 
+comments: true
 # Contact Form Setting
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
