@@ -111,7 +111,7 @@ Below are some properties you can change in your project `_config.yml`, check th
 # Site Settings
 name: Jekflix
 title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+description: R&B is a hacking blog for red & blue teams.
 tags:
   - blog
   - template
@@ -283,7 +283,7 @@ File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/
 
 ## Author
 
-[Thiago Rossener](https://rossener.com/)
+[Adrian Prieto](https://ertiti11.github.io)
 
 ## License
 

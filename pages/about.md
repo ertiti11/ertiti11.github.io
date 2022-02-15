@@ -5,7 +5,7 @@ description: Red and blue team hacking blog.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/icons/Frame 2-2.png" alt="titi" width="200">
 
 # About
 

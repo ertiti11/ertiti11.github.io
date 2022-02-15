@@ -1,12 +1,12 @@
 {
-  "name": "jekflix-template",
+  "name": "Red and blue team",
   "version": "3.1.1",
   "description": "A Jekyll theme inspired by Netflix",
   "main": "gulpfile.js",
-  "homepage": "https://github.com/thiagorossener/jekflix-template.git#readme",
+  "homepage": "https://github.com/ertiti11/ertiti11.github.io.git#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiagorossener/jekflix-template.git"
+    "url": "https://github.com/ertiti/ertiti11.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -15,11 +15,7 @@
     "blog",
     "netlify"
   ],
-  "author": "Thiago Rossener",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thiagorossener/jekflix-template/issues"
-  },
+  
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "child_process": "^1.0.2",

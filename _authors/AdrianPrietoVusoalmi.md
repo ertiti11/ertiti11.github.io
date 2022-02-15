@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/icons/Frame2.png
+photo: /assets/img/uploads/Adrianprieto.png
 name: AdrianPrietoVusoalmi
 display_name: TITI 
 position: Chief Editor
