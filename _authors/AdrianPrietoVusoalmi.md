@@ -3,7 +3,7 @@ layout: author
 photo: /assets/img/uploads/AdrianPrieto.png
 name: AdrianPrietoVusoalmi
 display_name: TITI 
-position: Chief Editor
+position: Owner & Chief editor
 bio: Hacker & Web developer
 github_username: ertiti11
 # facebook_username: thiagorossener
