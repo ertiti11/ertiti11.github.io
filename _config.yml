@@ -10,7 +10,7 @@ tags:
   - Blue team
   - nmap
   - netlify
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
@@ -18,8 +18,7 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
+    
 email: vatitiprieto11@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_0DyEDM0jtu 
