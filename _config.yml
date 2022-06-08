@@ -18,7 +18,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-    
+developing: false
+
 email: vatitiprieto11@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_0DyEDM0jtu 

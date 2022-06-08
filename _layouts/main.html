@@ -5,13 +5,21 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
     {% include head.html %}
+
+    {% if site.developing == true and jekyll.environment == "development"  %}
+    
+        <h1 style="text-align:center;color:black;font-size:14px; background-color:rgb(255, 9, 9);">{{jekyll.environment}}</h1>
+    {% endif %}
+    
     <body class="main-page has-push-menu">
         {% include svg-icons.html %}
         {% include header.html %}
             <section class="content">
                 {{ content }}
             </section>
+            {% include cookie_consent.html %}
         {% include footer.html %}
+        
         <script>
             if (window.netlifyIdentity) {
                 window.netlifyIdentity.on("init", function(user) {
@@ -23,16 +31,7 @@ layout: compress
                 });
             }
         </script>
-        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-        <script>
-        kofiWidgetOverlay.draw('titiprieto11', {
-            'type': 'floating-chat',
-            'floating-chat.donateButton.position': 'bottom-right',
-            'floating-chat.donateButton.text': 'Support me',
-            'floating-chat.donateButton.background-color': '#ffffff',
-            'floating-chat.donateButton.text-color': '#323842'
-        });
-        </script>
+       
     </body>
 </html>
 

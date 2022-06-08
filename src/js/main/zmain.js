@@ -1,16 +1,16 @@
 (function( $, window, undefined ) {
-  // Menu
-  // $("#menu").click(function() {
-  //   $("body").addClass("push-menu-to-right");
-  //   $("#sidebar").addClass("open");
-  //   $(".overlay").addClass("show");
-  // });
+  Menu
+  $("#menu").click(function() {
+    $("body").addClass("push-menu-to-right");
+    $("#sidebar").addClass("open");
+    $(".overlay").addClass("show");
+  });
 
-  // $("#mask").click(function() {
-  //   $("body").removeClass("push-menu-to-right");
-  //   $("#sidebar").removeClass("open");
-  //   $(".overlay").removeClass("show");
-  // });
+  $("#mask").click(function() {
+    $("body").removeClass("push-menu-to-right");
+    $("#sidebar").removeClass("open");
+    $(".overlay").removeClass("show");
+  });
 
   // Header
   $(window).scroll(function () {
