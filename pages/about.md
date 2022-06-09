@@ -9,4 +9,4 @@ permalink: /about/
 
 # About
 
-Este blog esta creado para amantes del Red y blue team.
+Este es un blog sobre noticias e información sobre ciberseguridad y hacking ético

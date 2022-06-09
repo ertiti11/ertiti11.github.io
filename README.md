@@ -162,7 +162,6 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
 use_logo: false
 
 # Content paginator

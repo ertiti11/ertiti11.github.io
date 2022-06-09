@@ -12,14 +12,21 @@
             {% endif %}
         </a>
     </h1>
+    <ul style="display: flex; ">
+        {% for item in site.menu %}
+          {% if item.title and item.url %}
+            <li >
+              <a style="color: white; margin:2px" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+              
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      
     <a id="search" class="dosearch" role="button">
         <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
     </a>
-    {% if site.show_get_theme_btn %}
-        <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
-            Get this theme!
-        </a>
-    {% endif %}
+
 </header>
 
 <div id="mask" class="overlay"></div>
